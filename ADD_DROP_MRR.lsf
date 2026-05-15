@@ -1,0 +1,3 @@
+data_drop = getresult("drop", "T"); 
+data_through = getresult("through", "T"); 
+matlabsave("wid500rad10.mat", data_drop, data_through);
